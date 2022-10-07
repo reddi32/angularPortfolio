@@ -1,0 +1,20 @@
+    <p class="display-2 contatti text-success">Contatti</p>
+
+    <form #mioform="ngForm" (ngSubmit)="onInvia(mioform)">
+        <input name="name" type="text" class="feedback-input" placeholder="Nome" ngModel required/>   
+        <input name="email" type="text" class="feedback-input" placeholder="Email" ngModel reaquired email/>
+        <textarea name="text" class="feedback-input" placeholder="Messaggio" ngModel required></textarea>
+        <button type="submit" class="btn btn-outline-success" [disabled]="!mioform.valid">Invia</button>
+    </form>
+
+
+    <p class="display-6 text-center">Reactive module</p>
+
+    <form [formGroup]="contactform" (ngSubmit)="onInvia2()">
+
+        <input name="name" type="text" class="feedback-input" placeholder="Nome" formControlName="nome">   
+        <input name="email" type="text" class="feedback-input" placeholder="Email" formControlName="email"/>
+        <textarea name="text" class="feedback-input" placeholder="Messaggio" formControlName="messaggio"></textarea>
+        <button type="submit" class="btn btn-outline-success" [disabled]="!contactform.valid">Invia</button>
+
+    </form>

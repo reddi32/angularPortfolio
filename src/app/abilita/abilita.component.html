@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <div class="abilita">
+   <p class="display-2 abilita text-success">Abilità</p>
+
+    <ul class="list-group" *ngFor="let miaAbilita of listaAbilita">
+      <li class="list-group-item">
+        <label>{{miaAbilita.nome}}</label>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:{{miaAbilita.id | percent}}"></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
