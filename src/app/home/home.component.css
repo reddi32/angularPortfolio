@@ -1,4 +1,101 @@
+.container-fluid {
+    padding: 0 10% 0 10%;
+}
+/*Hero image*/
 .img-fluid {
-    border-radius: 5%;
-    align-items: center;
+    width: 40%;
+}
+
+.container-fluid.text-center.shadow {
+    /*Stile*/
+    background-color: #2F4F4F;
+    border-radius: 5px;
+    /*Spaziatura*/
+    width: 100%;
+    height: 400px;
+    margin: 5% auto;
+    padding: 20px;
+}
+.text-success {
+    padding-top: 5%;
+}
+
+.text-start {
+    padding-top: 5%;
+    color: #f1faee; /* Imposta il colore del testo */
+    font-family: Comfortaa;
+    font-weight: 600;
+}
+
+/*Schermi con risoluzioni minori*/
+@media (max-width: 1029x) {
+    .container-fluid {
+        padding: 0;
+    }
+    .img-fluid {
+        width: 100%;
+    }
+    .text-start {
+        padding: 0 2.5% 0 2.5%;
+    }
+}
+
+@media (max-width: 821px) {
+    .container-fluid {
+        padding: 0;
+    }
+    .img-fluid {
+        width: 60%;
+    }
+    .text-start {
+        padding: 0 2.5% 0 2.5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 0;
+    }
+    .img-fluid {
+        width: 60%;
+    }
+    .text-start {
+        padding: 0 2.5% 0 2.5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-fluid {
+        padding: 0;
+    }
+    .img-fluid {
+        width: 40%;
+    }
+    .text-start {
+        padding: 0 2.5% 0 2.5%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-fluid {
+        padding: 0;
+    }
+    .img-fluid {
+        width: 80%;
+    }
+    .text-start {
+        padding: 0 2.5% 0 2.5%;
+    }
+}
+
+@media (max-width: 376px) {
+    .container-fluid {
+        padding: 0;
+    }
+    .img-fluid {
+        width: 80%;
+    }
+    .text-start {
+        padding: 0;
+    }
 }

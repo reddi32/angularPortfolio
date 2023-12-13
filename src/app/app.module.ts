@@ -14,6 +14,8 @@ import { ServizioProvaService } from './servizi/servizio-prova.service';
 import { ContattiComponent } from './contatti/contatti.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ProgettipersonaliComponent } from './progettipersonali/progettipersonali.component';
+import { AziendeComponent } from './aziende/aziende.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormazioneComponent,
     ErrorComponent,
     ContattiComponent,
-    HomeComponent
+    HomeComponent,
+    ProgettipersonaliComponent,
+    AziendeComponent
   ],
   imports: [
     BrowserModule,

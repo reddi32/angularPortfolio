@@ -1,72 +1,59 @@
 .container-fluid {
     padding: 0 10% 0 10%;
 }
+
 .container-fluid.text-center {
-    padding: 0 0 3% 0;
+    background-color: #2F4F4F;
     border-radius: 5px;
 }
-.text-success.text-center {
-    padding: 0 0 0 0;
-}
+
 .card {
     border: 0;
+    background-color: #2F4F4F;
 }
 .card-title {
-    color: #000814;
+    color: #f1faee;
 }
+
 
 /*Schermi con risoluzioni minori*/
 @media (max-width: 1029x) {
     .container-fluid {
         padding: 0;
-    }/*
-    .text-success.text-center {
-        padding: 0 0 6% 0;
-    }*/
+    }
+
 }
 
 @media (max-width: 821px) {
     .container-fluid {
         padding: 0;
-    }/*
-    .text-success.text-center {
-        padding: 0 0 6% 0;
-    }*/
+    }
+
 }
 
 @media (max-width: 768px) {
     .container-fluid {
         padding: 0;
-    }/*
-    .text-success.text-center {
-        padding: 0 0 6% 0;
-    }*/
+    }
+
 }
 
 @media (max-width: 767px) {
     .container-fluid {
         padding: 0;
-    }/*
-    .text-success.text-center {
-        padding: 0 0 10% 0;
-    }*/
+    }
+
 }
 
 @media (max-width: 600px) {
     .container-fluid {
         padding: 0;
-    }/*
-    .text-success.text-center {
-        padding: 0 0 10% 0;
-    }*/
+    }
+
 }
 
 @media (max-width: 376px) {
     .container-fluid {
         padding: 0;
     }
-    /*
-    .text-success.text-center {
-        padding: 0 0 15% 0;
-    }*/
 }

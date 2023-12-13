@@ -10,7 +10,7 @@ import { ServizioProvaService } from './servizi/servizio-prova.service';
 })
 
 export class AppComponent implements OnInit {
-  title = 'AngularPortfolio';
+  title = 'MatPortfolio';
 
   constructor() {}
   

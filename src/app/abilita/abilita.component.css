@@ -1,9 +1,64 @@
-.display-2.abilita {
-    text-align: center;
+.container-fluid {
+    padding: 0 10% 0 10%;
 }
 
-.list-group {
-    padding-top: 2.5%;
-    padding-left: 10%;
-    padding-right: 10%;
+/*Schermi con risoluzioni minori*/
+@media (max-width: 1029x) {
+    .container-fluid {
+        padding: 0;
+    }
+    .svg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 821px) {
+    .container-fluid {
+        padding: 0;
+    }
+    .svg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 0;
+    }
+    .svg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-fluid {
+        padding: 0;
+    }
+    .svg {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-fluid {
+        padding: 0;
+    }
+    .svg {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 376px) {
+    .container-fluid {
+        padding: 0;
+    }
+    .svg {
+        width: 25px;
+        height: 25px;
+    }
 }
