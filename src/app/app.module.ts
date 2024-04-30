@@ -16,6 +16,7 @@ import { ContattiComponent } from './contatti/contatti.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProgettipersonaliComponent } from './progettipersonali/progettipersonali.component';
 import { AziendeComponent } from './aziende/aziende.component';
+import { PicloudComponent } from './picloud/picloud.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { AziendeComponent } from './aziende/aziende.component';
     ContattiComponent,
     HomeComponent,
     ProgettipersonaliComponent,
-    AziendeComponent
+    AziendeComponent,
+    PicloudComponent
   ],
   imports: [
     BrowserModule,
